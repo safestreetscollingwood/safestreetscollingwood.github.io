@@ -8,6 +8,22 @@ body {
   text-align: center;
 }
 
- a {
-  color: lime;
+/* unvisited link */
+a:link {
+  color: limegreen;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: limegreen;
+}
+
+/* selected link */
+a:active {
+  color: lightgreen;
 }
